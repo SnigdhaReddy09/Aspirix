@@ -1,36 +1,103 @@
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 100px 0 50px;
+    width: 100%;
 }
 
-.name{
+.nav {
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+.name {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #6366F1;
+    color: blue;
 }
 
-.logo{
-    width: 60px;
-    height: 60px;
+.logo {
+    width: 50px;
+    height: 50px;
     margin-bottom: 15px;
+    margin-left: 50px;
 }
 
-.pages{
+.pages {
     display: flex;
-    gap:50px;
+    gap: 50px;
     margin: 30px;
 }
 
-a{
+a {
     text-decoration: none;
+    color: black;
 }
 
-.login{
+.login {
     font-size: medium;
-    border: none;
-    color:#6366F1 ;
+    border: 1px solid blue;
+    color: blue;
     background-color: white;
+    padding: 5px 10px;
+    margin-right: 50px;
+}
+
+.herosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: aliceblue;
+    margin: 0px 50px;
+}
+
+.content {
+    margin: 50px;
+
+}
+
+.heroimg {
+    width: 600px;
+}
+
+input {
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 5px 10px;
+}
+
+.cardscontainer,
+.degreecontainer,
+.freecontainer,
+.catcont {
+    margin: 30px 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin: 50px;
 }
