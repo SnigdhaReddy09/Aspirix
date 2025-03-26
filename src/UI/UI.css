@@ -1,0 +1,124 @@
+/* .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav {
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.pages {
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+} */
+
+.logout {
+    font-size: medium;
+    border: 1px solid #a2574f;
+    color: #a2574f;
+    background-color: white;
+    padding: 5px 10px;
+    margin-right: 50px;
+}
+
+.home-section {
+    position: relative;
+    height: 100vh;
+    margin: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://elearning.acas.org.uk/pluginfile.php/2/course/section/2/acas-homepage-image.jpg') center/cover no-repeat;
+}
+
+.search-box {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    color: gray;
+}
+
+.suggestions p {
+    margin-top: 8px;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.2s;
+}
+
+.suggestions p:hover {
+    color: #007bff;
+}
+
+.certificatescont,
+.degreecontainer,
+.freecontainer, .projectcontainer{
+    margin: 30px 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.card1{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card-body{
+    padding: 10px;
+}

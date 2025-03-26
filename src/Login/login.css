@@ -1,0 +1,41 @@
+.login-container {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputs{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-btn, .guest-btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.guest-btn {
+    background-color: #FFA500;
+    color: white;
+}
+
+p {
+    margin-top: 10px;
+}

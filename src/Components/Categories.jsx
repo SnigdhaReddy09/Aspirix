@@ -1,5 +1,5 @@
 import React from "react";
-import "./Categories.css";
+import "./component.css";
 
 const categories = [
   "Arts and Humanities",
@@ -10,8 +10,6 @@ const categories = [
   "Health",
   "Math and Logic",
   "Personal Development",
-  "Physical Science and Engineering",
-  "Social Sciences",
 ];
 
 const Categories = () => {
